@@ -28,7 +28,15 @@
     "not ie <= 11",
     "not op_mini all"
   ]
-  {
-  "homepage": "https://ericwilliamsbk88.github.io/chore-scheduler"
+{
+  "homepage": "https://ewilliamsbk88.github.io/chore-scheduler",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
 }
 }
